@@ -48,6 +48,8 @@ class AUE5CppWorkshopCharacter : public ACharacter
 public:
 	AUE5CppWorkshopCharacter();
 
+	virtual void BeginPlay() override;
+	
 protected:
 	/** Called for movement input */
 	void Move(const FInputActionValue& Value);
